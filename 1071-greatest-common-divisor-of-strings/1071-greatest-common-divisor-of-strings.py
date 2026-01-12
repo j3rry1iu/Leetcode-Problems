@@ -1,6 +1,5 @@
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
-        gcd = ""
         len1 = len(str1)
         len2 = len(str2)
         length = min(len1, len2)

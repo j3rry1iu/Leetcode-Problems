@@ -1,0 +1,2 @@
+Start with the largest possible string that is possible, which is the min of the two lengths. Check if that length is divisible by 
+both strings. First check length and then check if that length multiplied is equal to the strings. If not, reduce by one and check again. 

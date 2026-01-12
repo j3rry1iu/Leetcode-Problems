@@ -8,12 +8,9 @@ class Solution:
                 small = nums[i]
             elif med >= nums[i]: 
                 med = nums[i]
-            elif large >= nums[i]:
-                large = nums[i]
-        if small != inf and med != inf and large != inf: 
-            return True
-        else: 
-            return False
+            else:
+                return True
+        return False
 
 
 

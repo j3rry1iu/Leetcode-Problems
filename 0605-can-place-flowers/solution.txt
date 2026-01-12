@@ -1,0 +1,3 @@
+The trick with this one is to add a zero to both ends of the given array. This doesn't change the actual outcome and allows the
+algorithmn to be much simpler. Then you iterate through the array and check if there is a plant at that index, the one before and 
+the one after. If there isn't, place a flower in that spot and move on. 

@@ -4,7 +4,7 @@ class Solution:
         postfix = 1
         n = len(nums)
         result = [1] * n
-        for i in range(n):
+        for i in range(0, n, 1):
             result[i] = prefix
             prefix = prefix*nums[i]
         
